@@ -23,7 +23,7 @@ Você pode acessar o projeto clicando no link abaixo:
 As tecnologias utilizadas no desenvolvimento do projeto foram:
 
 - **HTML**: Estruturação do conteúdo;
-- **CSS**: Estilização e layout responsivo;
+- **Tailwind**: Estilização e layout responsivo;
 - **JavaScript**: Funcionalidades e interatividade.
 
 ---
