@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-dark-20 rounded-lg border-2 border-dark-40 py-8 px-6 md:p-10 relative hover:border-brandColor hover:cursor-pointer hover:transition ease-in-out delay-150 duration-300;
+  }
+
+  .favoriteBtn {
+    @apply absolute right-6 md:right-10 cursor-pointer;
+  }
+
+  .postingDate {
+    @apply text-brandColor font-inter text-[12px] md:text-[14px] lg:text-xs mb-[22px] md:mb-[27px] lg:mb-[26px] block;
+  }
+
+  .cardTitle {
+    @apply font-spaceGrotesk text-xl lg:text-2xl text-white font-medium pb-4;
+  }
+
+  .cardContent {
+    @apply font-inter text-sm md:text-base lg:text-xl text-dark-50;
+  }
+}

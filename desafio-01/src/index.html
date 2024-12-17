@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="./assets/CodeLab.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-dark-10">
+    <header class="bg-dark-20 py-16 text-center">
+      <div class="mx-auto max-w-[1200px] px-6 md:px-8 lg:px-12 xl:px-16">
+        <h1
+          class="pb-8 font-spaceGrotesk text-2xl text-brandColor md:pb-12 md:text-[40px]"
+        >
+          Code<span class="text-white">Lab</span>
+        </h1>
+        <input
+          type="text"
+          name="search-bar"
+          id="search-bar"
+          placeholder="Pesquisar no blog"
+          class="w-full rounded-lg border-2 border-dark-40 bg-dark-30 px-6 py-4 font-inter text-sm text-white delay-150 duration-300 ease-in-out placeholder:text-dark-50 hover:transition focus:border-brandColor focus:outline-none md:text-xl"
+        />
+      </div>
+    </header>
+
+    <main
+      class="mx-auto my-20 flex max-w-[1200px] flex-col gap-10 px-6 md:px-8 lg:px-12 xl:px-16"
+    >
+      <article class="card">
+        <img
+          id="icon"
+          src="./assets/icons/heart-icon.svg"
+          alt="Ícone de favorito (coração)"
+          class="favoriteBtn"
+        />
+        <time datetime="2024-08-17" class="postingDate">17 de ago, 2024</time>
+        <h2 class="cardTitle">
+          O que é linguagem de programação? Conheça as principais
+        </h2>
+        <p class="cardContent">
+          Uma das mais populares vertentes da tecnologia da informação, a área
+          de programação segue tendo muita demanda de trabalho justamente pela
+          velocidade com que dispositivos tecnológicos vêm avançando.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="./assets/icons/heart-icon.svg"
+          alt="Ícone de favorito (coração)"
+          class="favoriteBtn"
+        />
+        <time datetime="2024-07-12" class="postingDate">12 de jul, 2024</time>
+        <h2 class="cardTitle">
+          GitHub agora permite fazer login sem precisar de senha
+        </h2>
+        <p class="cardContent">
+          O GitHub anunciou nesta quarta-feira (12) o acesso a partir das
+          passkeys, método de autenticação sem senhas. A novidade está
+          disponível em uma versão beta pública e pode substituir a autenticação
+          em dois fatores.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="./assets/icons/heart-icon.svg"
+          alt="Ícone de favorito (coração)"
+          class="favoriteBtn"
+        />
+        <time datetime="2024-06-21" class="postingDate">21 de jun, 2024</time>
+        <h2 class="cardTitle">
+          Por que os hiperlinks são azuis em sua maioria?
+        </h2>
+        <p class="cardContent">
+          Quem navega na internet, certamente já percebeu que ela conta com
+          diversos recursos para tornar a nossa vida mais fácil. Entre essas
+          opções podemos mencionar os hiperlinks – uma palavra ou termo clicável
+          que direciona o leitor.
+        </p>
+      </article>
+    </main>
+
+    <footer></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
