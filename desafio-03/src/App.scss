@@ -1,0 +1,12 @@
+@use "./styles/scss/config/reset";
+@import "./styles/scss/config/variables";
+
+* {
+  font-family: $roboto-font;
+}
+
+.container {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
