@@ -8,13 +8,13 @@ Este projeto é a minha resolução do **Desafio 03** da comunidade **CodeLab**.
 
 Você pode acessar o projeto clicando no link abaixo:
 
-**🔗 [Clique aqui para visitar o projeto]()**
+**🔗 [Clique aqui para visitar o projeto](https://desafios-codelab-gustavo-dantas-marims-projects.vercel.app/)**
 
 ---
 
 ## 📸 Imagem do Projeto
 
-![Imagem do Blog](/desafio-03/public/images/image-7.png)
+![Imagem do Blog](/public/images/image-7.png)
 
 ---
 
@@ -23,7 +23,7 @@ Você pode acessar o projeto clicando no link abaixo:
 As tecnologias utilizadas no desenvolvimento do projeto foram:
 
 - **React**: Estruturação do conteúdo;
-- **SASS**: Estilização e layout responsivo;
+- **SASS**: Estilização e layout responsivo
 
 ---
 

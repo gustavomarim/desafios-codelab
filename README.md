@@ -8,7 +8,7 @@ Bem-vindo(a) ao $\color{orange}{\textsf{Desafios frontend}}$! Este projeto open-
 | :----: | :-----: | :--: | :-------------------------------------------------: | :------: | :----------: | :---------: |
 |   ✅   |   01    | Blog | [Acessar](https://bit.ly/codelab-desafio-1) | [Acessar](https://blog-codelab-tailwind.netlify.app) | [Acessar](https://github.com/gustavomarim/desafios-codelab/tree/master/desafio-01) | HTML, Tailwind CSS e jQuery
 |   ✅   |   02    | JordanShoes | [Acessar](https://bit.ly/codelab-desafio-2) | [Acessar](https://jordan-shoes-codelab.netlify.app/) | [Acessar](https://github.com/gustavomarim/desafios-codelab/tree/master/desafio-02) | HTML e Tailwind CSS
-|   ⚠️   |   03    | TechBlog    | [Acessar](https://bit.ly/codelab-desafio-3) | Em Breve | Em Breve |
+|   ✅   |   03    | TechBlog    | [Acessar](https://bit.ly/codelab-desafio-3) | [Acessar](https://desafios-codelab-gustavo-dantas-marims-projects.vercel.app/) | [Acessar](https://github.com/gustavomarim/desafios-codelab/tree/master/desafio-03) | React e Sass
 |   ⚠️   |   04    | Login       | [Acessar](https://bit.ly/codelab-desafio-4) | Em Breve | Em Breve |
 |   ⚠️   |   05    | Studio Ghibli | [Acessar](https://bit.ly/codelab-desafio-5) | Em breve | Em breve |
 |   ⚠️   |   06    | Mefolio | [Acessar](https://bit.ly/codelab-desafio-6) | Em breve | Em breve |
