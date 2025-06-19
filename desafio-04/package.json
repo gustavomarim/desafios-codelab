@@ -1,0 +1,19 @@
+{
+  "name": "codelab-login",
+  "version": "1.0.0",
+  "description": "CodeLab - Login",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass assets/styles/scss:assets/styles/css --style=compressed --source-map",
+    "sass:watch": "sass assets/styles/scss:assets/styles/css --watch --style=compressed --source-map",
+    "sass:dev": "sass assets/styles/scss:assets/styles/css --watch --style=expanded --source-map",
+    "build": "npm run sass:build",
+    "dev": "npm run sass:dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Dantas",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}

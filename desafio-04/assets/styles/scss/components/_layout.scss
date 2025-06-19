@@ -1,0 +1,32 @@
+// Importar dependências
+@use "../variables" as *;
+@use "../mixins" as *;
+
+// Layout principal - seções da página
+.presentation-section {
+  flex: 1;
+  background-color: $secondary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-xl;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.login-section {
+  flex: 1;
+  padding: $spacing-xl ($spacing-xl * 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+} 

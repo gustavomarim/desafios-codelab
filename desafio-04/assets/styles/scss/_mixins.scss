@@ -1,0 +1,89 @@
+// Importar variáveis
+@use "variables" as *;
+
+// Mixins para responsividade
+
+// Mixin para dispositivos móveis (celular)
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+// Mixin para tablets
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+
+
+// Mixins para botões
+@mixin button-style($bg-color, $text-color: white) {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: $spacing-md;
+  border: none;
+  border-radius: $border-radius-sm;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: $spacing-md;
+  text-align: center;
+  font-weight: 600;
+  font-size: $font-size-md;
+  line-height: 100%;
+
+  @include mobile {
+    font-size: $font-size-base;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+// Mixin para inputs
+@mixin form-input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius-sm;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: 100%;
+  background-color: $bg-input;
+  color: $text-input;
+  
+  &:focus {
+    outline: none;
+    border-color: $primary-color;
+  }
+}
+
+// Mixin para tipografia base
+@mixin text-base {
+  font-family: $font-family;
+  line-height: 100%;
+}
+
+// Mixin para textos responsivos
+@mixin responsive-text($desktop-size, $mobile-size) {
+  @include text-base;
+  font-size: $desktop-size;
+  
+  @include mobile {
+    font-size: $mobile-size;
+  }
+}
+
+// Mixin para links
+@mixin link-style($color: $primary-color) {
+  color: $color;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}

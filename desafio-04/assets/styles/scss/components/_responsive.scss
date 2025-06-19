@@ -1,0 +1,19 @@
+// Importar dependências
+@use "../variables" as *;
+@use "../mixins" as *;
+
+// Responsividade - media queries
+@include tablet {
+  body {
+    flex-direction: column;
+  }
+
+  .presentation-section {
+    min-height: 40vh;
+    padding: $spacing-lg;
+  }
+
+  .login-section {
+    padding: $spacing-xl;
+  }
+} 

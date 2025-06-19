@@ -1,0 +1,27 @@
+// Importar dependências
+@use "../variables" as *;
+@use "../mixins" as *;
+
+// Botões e suas variações
+.btn {
+  @include button-style($primary-color);
+}
+
+.btn-primary {
+  @include button-style($primary-color);
+  margin-bottom: $spacing-lg;
+}
+
+.btn-google {
+  @include button-style($bg-white, $text-primary);
+  border: 1px solid $border-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-sm;
+
+  &:hover {
+    background-color: $bg-light;
+    opacity: 1;
+  }
+} 

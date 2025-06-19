@@ -1,0 +1,15 @@
+// Importar dependências
+@use "../variables" as *;
+
+// Reset e estilos base
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+} 

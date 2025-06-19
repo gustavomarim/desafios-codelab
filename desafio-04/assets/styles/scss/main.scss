@@ -1,0 +1,11 @@
+// Importar variáveis e mixins
+@use "variables" as *;
+@use "mixins" as *;
+
+// Importar componentes
+@use "components/base";
+@use "components/layout";
+@use "components/typography";
+@use "components/forms";
+@use "components/buttons";
+@use "components/responsive";
