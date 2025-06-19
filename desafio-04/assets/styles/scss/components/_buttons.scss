@@ -8,17 +8,17 @@
 }
 
 .btn-primary {
-  @include button-style($primary-color);
   margin-bottom: $spacing-lg;
+  @include button-style($primary-color);
 }
 
 .btn-google {
-  @include button-style($bg-white, $text-primary);
   border: 1px solid $border-color;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: $spacing-sm;
+  @include button-style($bg-white, $text-primary);
 
   &:hover {
     background-color: $bg-light;

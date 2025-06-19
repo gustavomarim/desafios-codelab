@@ -7,12 +7,12 @@
   margin-bottom: $spacing-lg;
 
   label {
-    @include text-base;
     display: block;
     color: $text-primary;
     font-weight: 400;
     font-size: $font-size-base;
     margin-bottom: $spacing-md;
+    @include text-base;
   }
 
   input {

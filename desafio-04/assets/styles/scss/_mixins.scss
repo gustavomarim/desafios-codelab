@@ -17,8 +17,6 @@
   }
 }
 
-
-
 // Mixins para botões
 @mixin button-style($bg-color, $text-color: white) {
   background-color: $bg-color;
@@ -34,12 +32,12 @@
   font-size: $font-size-md;
   line-height: 100%;
 
-  @include mobile {
-    font-size: $font-size-base;
-  }
-
   &:hover {
     opacity: 0.9;
+  }
+
+  @include mobile {
+    font-size: $font-size-base;
   }
 }
 
@@ -70,7 +68,8 @@
 
 // Mixin para textos responsivos
 @mixin responsive-text($desktop-size, $mobile-size) {
-  @include text-base;
+  font-family: $font-family;
+  line-height: 100%;
   font-size: $desktop-size;
   
   @include mobile {
@@ -80,10 +79,12 @@
 
 // Mixin para links
 @mixin link-style($color: $primary-color) {
-  color: $color;
-  text-decoration: none;
-  
-  &:hover {
-    text-decoration: underline;
+  & {
+    color: $color;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
